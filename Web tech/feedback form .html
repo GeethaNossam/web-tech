@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback form</title>
+    <style>
+        textarea{
+            width:400px ;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Feedback Form</h2>
+    <form>
+        <input required type="text" placeholder="First Name">
+        <input required type="text" placeholder="Middle Name">
+        <input required type="text" placeholder="Last Name"><br><br>
+        <input required type="date" placeholder="Date Of Birth">
+        <input required type="number" placeholder="Phone Number"><br><br>
+        <input required type="email" placeholder="email">
+        <input required type="text" placeholder="Course"><br><br>
+        <textarea required name="feedback" placeholder="What are the things you like about our distance learning method?"></textarea><br><br>
+        <textarea required name="feedback" placeholder="What are the things you DON'T like about our distance learning method?"></textarea><br><br>
+        <textarea required name="feedback" placeholder="Suggestions on how we can improve our teaching process"></textarea><br>
+        <p>Would you recommend our school to others?</p>
+        <lable required for="01">
+            <input type="radio" value=Yes name="Boolean" id="01">Yes
+        </lable><br>
+        <lable required for="02">
+            <input type="radio" value=No name="Boolean" id="02">No
+        </lable>
+    </form>
+</body>
+</html>
