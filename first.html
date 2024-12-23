@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="First.css">
+    <script src="First.js" defer></script>
+    <title>Login & Registration</title>
+</head>
+<body>
+    <div>
+        <a href="register.html"></a>
+        
+    </div>
+
+
+
+
+
+<div class="container-second">
+    <h1 class="About" id="About">About Learning Platform</h1>
+    <p class="Paragraph">Language learning platforms are crucial in the IT sector,enabling  global
+                         collaboration and effective communication among international teams. These
+                          teams. These platforms leverage AI and NLP technologies to offer personalized 
+                          learning experiences, and some even integrate AR and VR for immersive learning. 
+                          Companies invest in these platforms for corporate training to enhance cultural  
+                          understanding and teamwork, especially in the context of remote work. As the demand 
+                           for multilingualism grows, these platforms provide flexible and accessible solutions for
+                          IT professionals to acquire valuable language skills, boosting their career prospects.</p>
+                          <p class="Paragraph"> Language learning contributes an important means to communicate 
+                            and interact in order to participate in multilingual communities at home and around
+                            the world. This interaction develops the disposition to explore the perspectives 
+                            behind the products and practices of a culture and to value such intercultural experiences.</p>
+  
+                          <img src="images/platform.jpeg.jpg" alt="A beautiful landscape" class="styled-image">
+                      <div class="courses" id="courses">
+                          <h1 class="courses-h1">Our Featured Courses</h1>
+                          <a href="https://www.w3schools.com/c/"><img src="images/C.jpeg.jpg" alt="A beautiful landscape" class="courses-1"></a>
+                          <a href="https://www.w3schools.com/python/"><img src="images/python.jpeg.jpg" alt="A beautiful landscape" class="courses-2"></a>
+                          <a href="https://www.w3schools.com/html/default.asp"><img src="images/web.jpg" alt="A beautiful landscape" class="courses-3"></a>
+                          <a href="https://www.w3schools.com/java/"><img src="images/java.jpg" alt="A beautiful landscape" class="courses-4"></a>
+                      </div>
+                      <div class="container-Third">
+                          <h1>Profile Management</h1>
+                          <form id="profileForm">
+                              <div class="form-group">
+                                  <label for="languages">Select Languages:</label>
+                                  <select id="languages" >
+                                      <option value="Python">Python</option>
+                                      <option value="Java">Java</option>
+                                      <option value="Web Teachnology">Web Teachnology</option>
+                                      <option value="C programing">C Programing</option>
+                                  </select>
+                              </div>
+                              <div class="form-group">
+                                  <label for="levels">Select Levels:</label>
+                                  <select id="levels">
+                                      <option value="beginner">Beginner</option>
+                                      <option value="intermediate">Intermediate</option>
+                                      <option value="advanced">Advanced</option>
+                                  </select>
+                              </div>
+                              <button class="button-3"type="submit">Save Profile</button>
+                          </form>
+                          <div id="result" class="result"></div>
+                      </div>
+                      <div class="container-fourth">
+                          <h1>Interactive Lessons</h1>
+                              <h2 class="Lession-1">Lesson: Introduction to C Programming</h2>
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/KnvbUiSxvbM?si=Sg7j6jz6RKddpDkr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="videos"></iframe>
+                     
+                            
+                    <iframe  src="https://www.youtube.com/embed/h4VBpylsjJc?si=J6Z0DpNWgVE3nMuF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="videos"></iframe>
+                    
+                    <iframe src="https://www.youtube.com/embed/sARaqR0hRI4?si=jLCifC103_uDiqXo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="videos"></iframe>
+                    
+                    <iframe src="https://www.youtube.com/embed/17gp5DJEyiw?si=9adUDfLv1LJ-ABnu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="videos"></iframe>
+                      </div>
+                    </div>
+                      
+                      <div class="quiz-container">
+                        <h2>Introduction to C Programming Quiz</h2>
+                        
+                        <form id="quizForm">
+                            <!-- Question 1 -->
+                            <div class="question">
+                                <h3>1. Which of the following is the correct syntax to print a message in C?</h3>
+                                <label><input type="radio" name="q1" value="1"> printf("Hello, World!");</label>
+                                <label><input type="radio" name="q1" value="2"> Console.Write("Hello, World!");</label>
+                                <label><input type="radio" name="q1" value="3"> System.out.println("Hello, World!");</label>
+                            </div>
+                    
+                            <!-- Question 2 -->
+                            <div class="question">
+                                <h3>2. Which of the following is a correct data type in C?</h3>
+                                <label><input type="radio" name="q2" value="1"> integer</label>
+                                <label><input type="radio" name="q2" value="2"> char</label>
+                                <label><input type="radio" name="q2" value="3"> string</label>
+                            </div>
+                    
+                            <!-- Question 3 -->
+                            <div class="question">
+                                <h3>3. What is the size of an int data type in C (in bytes)?</h3>
+                                <label><input type="radio" name="q3" value="1"> 2</label>
+                                <label><input type="radio" name="q3" value="2"> 4</label>
+                                <label><input type="radio" name="q3" value="3"> 8</label>
+                            </div>
+                    
+                            <!-- Question 4 -->
+                            <div class="question">
+                                <h3>4. Which loop is guaranteed to execute at least once?</h3>
+                                <label><input type="radio" name="q4" value="1"> for</label>
+                                <label><input type="radio" name="q4" value="2"> while</label>
+                                <label><input type="radio" name="q4" value="3"> do-while</label>
+                            </div>
+                    
+                            <!-- Question 5 -->
+                            <div class="question">
+                                <h3>5. Which of the following is used to take input from the user in C?</h3>
+                                <label><input type="radio" name="q5" value="1"> scanf()</label>
+                                <label><input type="radio" name="q5" value="2"> input()</label>
+                                <label><input type="radio" name="q5" value="3"> cin</label>
+                            </div>
+                    
+                            <!-- Question 6 -->
+                            <div class="question">
+                                <h3>6. What is the output of the following code?</h3>
+                                <pre>
+                    int a = 5, b = 10;
+                    printf("%d", a + b);
+                                </pre>
+                                <label><input type="radio" name="q6" value="1"> 15</label>
+                                <label><input type="radio" name="q6" value="2"> 10</label>
+                                <label><input type="radio" name="q6" value="3"> 5</label>
+                            </div>
+                    
+                            <!-- Question 7 -->
+                            <div class="question">
+                                <h3>7. How do you declare a function in C?</h3>
+                                <label><input type="radio" name="q7" value="1"> void functionName();</label>
+                                <label><input type="radio" name="q7" value="2"> functionName();</label>
+                                <label><input type="radio" name="q7" value="3"> void function();</label>
+                            </div>
+                    
+                            <!-- Question 8 -->
+                            <div class="question">
+                                <h3>8. What is a pointer in C?</h3>
+                                <label><input type="radio" name="q8" value="1"> A keyword</label>
+                                <label><input type="radio" name="q8" value="2"> A variable that stores the address of another variable</label>
+                                <label><input type="radio" name="q8" value="3"> A loop control statement</label>
+                            </div>
+                    
+                            <!-- Question 9 -->
+                            <div class="question">
+                                <h3>9. Which of the following is the correct way to declare an array in C?</h3>
+                                <label><input type="radio" name="q9" value="1"> int array[10];</label>
+                                <label><input type="radio" name="q9" value="2"> array int[10];</label>
+                                <label><input type="radio" name="q9" value="3"> int[10] array;</label>
+                            </div>
+                    
+                            <!-- Question 10 -->
+                            <div class="question">
+                                <h3>10. What is the purpose of the 'return' statement in C?</h3>
+                                <label><input type="radio" name="q10" value="1"> To end a function and return a value</label>
+                                <label><input type="radio" name="q10" value="2"> To start a loop</label>
+                                <label><input type="radio" name="q10" value="3"> To exit a loop</label>
+                            </div>
+                    
+                  
+                          
+                      
+                  
+
+
+                             <button class="button-4"type="button" onclick="submitQuiz1()">Submit</button>
+                        </form>
+                        <div id="result" class="result"></div>
+                    </div>
+                    <div>
+                        <div class="container-fourth">
+                            <h1>Interactive Lessons</h1>
+                                <h2 class="Lession-1">Lesson: Introduction to Python</h2>
+                                <div class="video-container">
+                                <iframe  src="https://www.youtube.com/embed/hEgO047GxaQ?si=1RcQIoFQWu4XRe4r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="videos"></iframe>
+                                <iframe  src="https://www.youtube.com/embed/CScxy0294SE?si=K_fkH8RRGff2gHEB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="videos"></iframe>
+                                <iframe  src="https://www.youtube.com/embed/DWgzHbglNIo?si=r6Ul_VEDmUFgZ8jh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="videos"></iframe>
+                                <iframe  src="https://www.youtube.com/embed/TqPzwenhMj0?si=S-72KKluK8bO7KAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="videos"></iframe>      
+                      </div>
+                    </div>
+                    </div>
+
+                    <div class="quiz-container">
+                     <h1>Python Introduction Quiz</h1>
+    <form id="quizForm">
+        <ol>
+            <!-- Question 1 -->
+             <div class="question">
+            <li>
+                <p>What is the correct way to start a function in Python?</p>
+                <input type="radio" name="q1" value="a"> a) def functionName():<br>
+                <input type="radio" name="q1" value="b"> b) function functionName()<br>
+                <input type="radio" name="q1" value="c"> c) create functionName()<br>
+            </li>
+        </div>
+         
+            <!-- Question 2 -->
+            <div class="question">
+            <li>
+                <p>What is the output of print(2 * 3)?</p>
+                <input type="radio" name="q2" value="a"> a) 6<br>
+                <input type="radio" name="q2" value="b"> b) 23<br>
+                <input type="radio" name="q2" value="c"> c) Error<br>
+            </li>
+            </div>
+
+            <!-- Question 3 -->
+            <div class="question">
+            <li>
+                <p>Which of the following is a valid variable name in Python?</p>
+                <input type="radio" name="q3" value="a"> a) 2variable<br>
+                <input type="radio" name="q3" value="b"> b) variable_2<br>
+                <input type="radio" name="q3" value="c"> c) variable-2<br>
+            </li>
+            </div>
+            <!-- Question 4 -->
+            <div class="question">
+            <li>
+                <p>How do you insert comments in Python code?</p>
+                <input type="radio" name="q4" value="a"> a) /* This is a comment */<br>
+                <input type="radio" name="q4" value="b"> b) # This is a comment<br>
+                <input type="radio" name="q4" value="c"> c) // This is a comment<br>
+            </li>
+             </div>
+            <!-- Question 5 -->
+            <div class="question">
+            <li>
+                <p>What data type is the result of 3 / 2 in Python?</p>
+                <input type="radio" name="q5" value="a"> a) int<br>
+                <input type="radio" name="q5" value="b"> b) float<br>
+                <input type="radio" name="q5" value="c"> c) str<br>
+            </li>
+            </div>
+            <!-- Question 6 -->
+            <div class="question">
+            <li>
+                <p>Which of these is not a core data type in Python?</p>
+                <input type="radio" name="q6" value="a"> a) list<br>
+                <input type="radio" name="q6" value="b"> b) tuple<br>
+                <input type="radio" name="q6" value="c"> c) class<br>
+            </li>
+            </div>
+            <!-- Question 7 -->
+            <div class="question">
+            <li>
+                <p>Which of the following is used to take input from a user in Python?</p>
+                <input type="radio" name="q7" value="a"> a) input()<br>
+                <input type="radio" name="q7" value="b"> b) raw_input()<br>
+                <input type="radio" name="q7" value="c"> c) getInput()<br>
+            </li>
+            </div>
+            <!-- Question 8 -->
+            <div class="question">
+            <li>
+                <p>What is the correct syntax for a for loop in Python?</p>
+                <input type="radio" name="q8" value="a"> a) for i = 0; i < 5; i++:<br>
+                <input type="radio" name="q8" value="b"> b) for i in range(5):<br>
+                <input type="radio" name="q8" value="c"> c) foreach i in range(5):<br>
+            </li>
+            </div>
+            <!-- Question 9 -->
+            <div class="question">
+            <li>
+                <p>How do you create a dictionary in Python?</p>
+                <input type="radio" name="q9" value="a"> a) dict = {key1: value1, key2: value2}<br>
+                <input type="radio" name="q9" value="b"> b) dict = [key1: value1, key2: value2]<br>
+                <input type="radio" name="q9" value="c"> c) dict = (key1: value1, key2: value2)<br>
+            </li>
+            </div>
+            <!-- Question 10 -->
+            <div class="question">
+            <li>
+                <p>Which of the following methods can be used to find the length of a list in Python?</p>
+                <input type="radio" name="q10" value="a"> a) len(list)<br>
+                <input type="radio" name="q10" value="b"> b) length(list)<br>
+                <input type="radio" name="q10" value="c"> c) size(list)<br>
+            </li>
+            </div>
+        </ol>
+        <button class="button-4" type="button" onclick="submitQuiz2()">Submit</button>
+    </form>
+</div>
+<div>
+    <div class="container-fourth">
+        <h1>Interactive Lessons</h1>
+            <h2 class="Lession-1">Lesson: Introduction to Web Technology</h2>
+            <div class="video-container">
+                <iframe  src="https://www.youtube.com/embed/JsbxB2l7QGY?si=PlPw30IcfYfNpOrL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="videos"></iframe>
+                <iframe  src="https://www.youtube.com/embed/3GGmmVp6iOc?si=tkHLwSh9mRMk8RbS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="videos"></iframe>
+                <iframe  src="https://www.youtube.com/embed/uLhiX0HUTMY?si=g7anjNy5-eqOsFS4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="videos"></iframe>
+                <iframe  src="https://www.youtube.com/embed/CH1GQDgBOMY?si=4CigrXmgez96uqrL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="videos"></iframe>
+  </div>
+</div>
+</div>
+<div class="quiz-container">
+<h1>Introduction to Web Technology Quiz</h1>
+
+    <form action="/submit-quiz" method="post">
+        <!-- Question 1 -->
+        <p>1. What does HTML stand for?</p>
+        <input type="radio" name="q1" value="a"> a) Hyper Text Markup Language<br>
+        <input type="radio" name="q1" value="b"> b) Home Tool Markup Language<br>
+        <input type="radio" name="q1" value="c"> c) Hyperlinks and Text Markup Language<br>
+        <input type="radio" name="q1" value="d"> d) Hyper Tool Markup Language<br><br>
+
+        <!-- Question 2 -->
+        <p>2. Which HTML tag is used to define the largest heading?</p>
+        <input type="radio" name="q2" value="a"> a) &lt;head&gt;<br>
+        <input type="radio" name="q2" value="b"> b) &lt;h1&gt;<br>
+        <input type="radio" name="q2" value="c"> c) &lt;h6&gt;<br>
+        <input type="radio" name="q2" value="d"> d) &lt;header&gt;<br><br>
+
+        <!-- Question 3 -->
+        <p>3. What is the correct HTML tag for inserting a line break?</p>
+        <input type="radio" name="q3" value="a"> a) &lt;break&gt;<br>
+        <input type="radio" name="q3" value="b"> b) &lt;lb&gt;<br>
+        <input type="radio" name="q3" value="c"> c) &lt;br&gt;<br>
+        <input type="radio" name="q3" value="d"> d) &lt;hr&gt;<br><br>
+
+        <!-- Question 4 -->
+        <p>4. Which of the following is used to create an unordered list in HTML?</p>
+        <input type="radio" name="q4" value="a"> a) &lt;ol&gt;<br>
+        <input type="radio" name="q4" value="b"> b) &lt;ul&gt;<br>
+        <input type="radio" name="q4" value="c"> c) &lt;li&gt;<br>
+        <input type="radio" name="q4" value="d"> d) &lt;list&gt;<br><br>
+
+        <!-- Question 5 -->
+        <p>5. How do you create a hyperlink in HTML?</p>
+        <input type="radio" name="q5" value="a"> a) &lt;a href="url"&gt;Link&lt;/a&gt;<br>
+        <input type="radio" name="q5" value="b"> b) &lt;link="url"&gt;Link&lt;/link&gt;<br>
+        <input type="radio" name="q5" value="c"> c) &lt;a url="link"&gt;Link&lt;/a&gt;<br>
+        <input type="radio" name="q5" value="d"> d) &lt;a name="link"&gt;Link&lt;/a&gt;<br><br>
+
+        <!-- Question 6 -->
+        <p>6. Which HTML tag is used to embed an image in a webpage?</p>
+        <input type="radio" name="q6" value="a"> a) &lt;img src="image.jpg"&gt;<br>
+        <input type="radio" name="q6" value="b"> b) &lt;image src="image.jpg"&gt;<br>
+        <input type="radio" name="q6" value="c"> c) &lt;picture src="image.jpg"&gt;<br>
+        <input type="radio" name="q6" value="d"> d) &lt;img alt="image.jpg"&gt;<br><br>
+
+        <!-- Question 7 -->
+        <p>7. What is the correct HTML tag to make text bold?</p>
+        <input type="radio" name="q7" value="a"> a) &lt;bold&gt;<br>
+        <input type="radio" name="q7" value="b"> b) &lt;b&gt;<br>
+        <input type="radio" name="q7" value="c"> c) &lt;strong&gt;<br>
+        <input type="radio" name="q7" value="d"> d) Both b and c<br><br>
+
+        <!-- Question 8 -->
+        <p>8. How do you add comments in HTML code?</p>
+        <input type="radio" name="q8" value="a"> a) &lt;!-- Comment --&gt;<br>
+        <input type="radio" name="q8" value="b"> b) // Comment //<br>
+        <input type="radio" name="q8" value="c"> c) /* Comment */<br>
+        <input type="radio" name="q8" value="d"> d) ## Comment ##<br><br>
+
+        <!-- Question 9 -->
+        <p>9. Which of the following tags is used to create a table in HTML?</p>
+        <input type="radio" name="q9" value="a"> a) &lt;tr&gt;, &lt;th&gt;, &lt;td&gt;<br>
+        <input type="radio" name="q9" value="b"> b) &lt;table&gt;, &lt;thead&gt;, &lt;tfoot&gt;<br>
+        <input type="radio" name="q9" value="c"> c) &lt;table&gt;, &lt;tr&gt;, &lt;td&gt;<br>
+        <input type="radio" name="q9" value="d"> d) All of the above<br><br>
+
+        <!-- Question 10 -->
+        <p>10. What is the correct way to create a checkbox in HTML?</p>
+        <input type="radio" name="q10" value="a"> a) &lt;checkbox&gt;<br>
+        <input type="radio" name="q10" value="b"> b) &lt;input type="checkbox"&gt;<br>
+        <input type="radio" name="q10" value="c"> c) &lt;input checkbox="true"&gt;<br>
+        <input type="radio" name="q10" value="d"> d) &lt;input type="check"&gt;<br><br>
+
+        <button class="button-4" type="button" onclick="submitQuiz3()">Submit</button>
+    </form>
+    </div>
+    <div class="container-fourth">
+        <h1>Interactive Lessons</h1>
+            <h2 class="Lession-1">Lesson: Introduction to Java</h2>
+            <div class="video-container">
+                <iframe  src="https://www.youtube.com/embed/bm0OyhwFDuY?si=-VZW5XImQX5jY3Zz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="videos"></iframe>
+                <iframe  src="https://www.youtube.com/embed/WRISYpKhIrc?si=WoUjUt8amy4NgemW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="videos"></iframe>
+                <iframe  src="https://www.youtube.com/embed/tSqNBjGacYk?si=jAjfE0_kjtu2KKKi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="videos"></iframe>
+                <iframe  src="https://www.youtube.com/embed/NHrsLjhjmi4?si=5hpThe4UyUlCUsYg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="videos"></iframe>
+    </div>
+    </div>
+    <div class="quiz-container">
+    <h1>Introduction to Java - Quiz</h1>
+    
+    <form>
+        <!-- Question 1 -->
+      <div class="question">
+        <p>1. What is the default value of a boolean variable in Java?</p>
+        <input type="radio" name="q1" value="true"> true<br>
+        <input type="radio" name="q1" value="false"> false<br>
+        <input type="radio" name="q1" value="null"> null<br>
+        <input type="radio" name="q1" value="undefined"> undefined<br>
+      </div>
+
+        <!-- Question 2 -->
+        <div class="question">
+        <p>2. Which of these is the correct syntax for main method in Java?</p>
+        <input type="radio" name="q2" value="A"> public static void main(String args)<br>
+        <input type="radio" name="q2" value="B"> public static main(String[] args)<br>
+        <input type="radio" name="q2" value="C"> public static void main(String[] args)<br>
+        <input type="radio" name="q2" value="D"> public void main(String[] args)<br>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="question">
+        <p>3. Which data type is used to create a variable that should store text?</p>
+        <input type="radio" name="q3" value="int"> int<br>
+        <input type="radio" name="q3" value="char"> char<br>
+        <input type="radio" name="q3" value="String"> String<br>
+        <input type="radio" name="q3" value="boolean"> boolean<br>
+        </div>
+
+        <!-- Question 4 -->
+        <div class="question">
+        <p>4. How do you declare an array in Java?</p>
+        <input type="radio" name="q4" value="A"> int[] arr = new int[10];<br>
+        <input type="radio" name="q4" value="B"> arr[] = new int[10];<br>
+        <input type="radio" name="q4" value="C"> int arr = new int(10);<br>
+        <input type="radio" name="q4" value="D"> array arr = int[10];<br>
+        </div>
+
+        <!-- Question 5 -->
+        <div class="question">
+        <p>5. Which keyword is used to create a subclass in Java?</p>
+        <input type="radio" name="q5" value="extends"> extends<br>
+        <input type="radio" name="q5" value="inherits"> inherits<br>
+        <input type="radio" name="q5" value="implements"> implements<br>
+        <input type="radio" name="q5" value="subclass"> subclass<br>
+        </div>
+
+        <!-- Question 6 -->
+        <div class="question">
+        <p>6. What is the correct way to create an object of class Car?</p>
+        <input type="radio" name="q6" value="A"> Car myCar = new Car();<br>
+        <input type="radio" name="q6" value="B"> Car myCar = Car();<br>
+        <input type="radio" name="q6" value="C"> new Car myCar();<br>
+        <input type="radio" name="q6" value="D"> myCar = new Car();<br>
+        </div>
+
+        <!-- Question 7 -->
+        <div class="question">
+        <p>7. Which access modifier makes a variable visible to all classes?</p>
+        <input type="radio" name="q7" value="A"> private<br>
+        <input type="radio" name="q7" value="B"> public<br>
+        <input type="radio" name="q7" value="C"> protected<br>
+        <input type="radio" name="q7" value="D"> default<br>
+        </div>
+
+        <!-- Question 8 -->
+        <div class="question">
+        <p>8. Which of the following is NOT a Java keyword?</p>
+        <input type="radio" name="q8" value="A"> final<br>
+        <input type="radio" name="q8" value="B"> implement<br>
+        <input type="radio" name="q8" value="C"> volatile<br>
+        <input type="radio" name="q8" value="D"> synchronized<br>
+        </div>
+
+        <!-- Question 9 -->
+        <div class="question">
+        <p>9. What is used to find and fix bugs in Java programs?</p>
+        <input type="radio" name="q9" value="A"> Compiler<br>
+        <input type="radio" name="q9" value="B"> Debugger<br>
+        <input type="radio" name="q9" value="C"> JVM<br>
+        <input type="radio" name="q9" value="D"> Garbage Collector<br>
+        </div>
+
+        <!-- Question 10 -->
+        <div class="question">
+        <p>10. Which statement is true about Java?</p>
+        <input type="radio" name="q10" value="A"> Java is platform-dependent<br>
+        <input type="radio" name="q10" value="B"> Java supports multiple inheritance<br>
+        <input type="radio" name="q10" value="C"> Java is a procedural language<br>
+        <input type="radio" name="q10" value="D"> Java is platform-independent<br>
+        </div>
+
+        <br>
+        <button class="button-4" type="button" onclick="submitQuiz4()">Submit</button>
+    </form>
+</div>
+<div class="container-fifth">
+    <h1>Multimedia Content Interaction</h1>
+
+    <section class="image-gallery">
+        <h2>Image Gallery</h2>
+        <div class="gallery">
+            <img src="images/Dennis_Ritchie.jpg" alt="Image 1" class="pictures">
+            <img src="images/Guido_van_Rossum.jpg" alt="Image 2" class="pictures">
+            <img src="images/Tim Berners-lee.jpg" alt="Image 3" class="pictures">
+            <img src="images/James Gosling.jpg" alt="Image 4" class="pictures">
+        </div>
+    </section>
+
+    <section class="video-player">
+        <h2>Video Player</h2>
+
+            <iframe src="https://www.youtube.com/embed/NHrsLjhjmi4?si=-nLlPWfqP3qRp0SR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="videos-5"></iframe>
+    </section>
+</div>
+<div class="container-sixth">
+    <h1>User Progress Tracking</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Lesson</th>
+                <th>Status</th>
+                <th>Quiz Score</th>
+                <th>Time Spent (minutes)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Lesson 1: Introduction to HTML</td>
+                <td>Completed</td>
+                <td>85%</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Lesson 2: Introduction to  java</td>
+                <td>In Progress</td>
+                <td>N/A</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>Lesson 3: Introduction to python</td>
+                <td> Started</td>
+                <td>50 %</td>
+                <td>40</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div class="container-7">
+    <h1>User Achievements</h1>
+    <section class="achievements">
+        <h2>Achievements Unlocked</h2>
+        <ul>
+            <li>🎉 Completed 5 Lessons</li>
+            <li>🏆 Scored 90% or higher on quizzes</li>
+            <li>📚 Read 1 domian</li>
+            <li>🌟 Received 5 positive feedbacks</li>
+        </ul>
+    </section>
+
+    <section class="feedback">
+        <h2>Feedback Section</h2>
+        <form  action="http://localhost/php/source.php"method="POST" id="feedback-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="message">Feedback:</label>
+            <textarea id="feedback" name="feedback" rows="4" required></textarea>
+
+            <button class="button-5" type="submit">Submit Feedback</button>
+        </form>
+    </section>
+</div>
+<div class="container-8">
+    <h1 class='S'id="S">Follow Us on Social Media</h1>
+   <a href='https://www.facebook.com'> <img id='img-3' src="images/facebook.jpeg.jpg" /> </a><br>
+   <a href='https://www.instagram.com'> <img id='img-4' src="images/instagram.jpeg.jpg" /></a> <br>
+   <a href='https://www.youtube.com'> <img id='img-5' src="images/youtube.png" /> </a> <br>
+   <a href='https://twitter.com'> <img id='img-6' src="images/twitter.png" /> </a><br>
+   <a href='https://linked.com'> <img id='img-7' src="images/linkedin.jpeg.svg" /> </a><br>
+   
+ </div>
+</div>                   
+</body>
+</html>
